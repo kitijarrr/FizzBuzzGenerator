@@ -1,0 +1,100 @@
+body {
+    background: rgb(41, 219, 58);
+}
+
+button:hover {
+
+	background: rgb(4, 95, 65);
+}
+
+#controls {
+	
+	width: 20%;
+	height: 300px;
+	margin: 10% auto;
+}
+.display {
+	display: table-cell;
+    background: rgb(125, 223, 182);
+    height:50px;
+    min-width: 150px;
+    float: right;
+    border: 3px ridge rgb(28, 67, 46);
+	border-radius: 5%;
+    margin: 10% 10%;
+    text-align: center;
+  vertical-align: center;
+	color: rgb(28, 67, 46);
+    font-size: 50px;
+}
+
+#gen_label {
+	font-size: 1.5em;
+	font-family: cursive;
+	font-weight: bold;
+	color: rgb(28, 67, 46);
+  margin-right: -20%;
+  margin-top: -15%
+  
+}
+
+h1 {
+	text-align: center;
+	color: rgb(28, 67, 46);
+}
+
+input {
+	border: 3px ridge rgb(7, 58, 20);
+	border-radius: 10%;
+    color: rgb(67, 226, 171);
+    font-size: 25px;
+    height: 50px;
+    margin: 3% 30%;
+    max-width: 150px;
+    text-align: center;
+	
+}
+label {
+    display: inline-block;
+    margin: 3% 22%;
+    font-family: monospace;
+}
+
+#num_output {
+    background: rgb(28, 67, 46);
+	border: 3px solid rgb(166, 231, 196);
+	border-radius: 10%;
+	color: rgb(166, 231, 196);
+	font-weight: bold;
+    height: 60px;
+    width: 150px;
+	margin: 3% 30%;
+   
+}
+
+#reset_it {
+	background: rgb(28, 67, 46);
+	border: 3px solid rgb(166, 231, 196);
+	border-radius: 10%;
+	color: rgb(166, 231, 196);
+    height: 60px;
+	font-weight: bold;
+	font-size: 36px;
+	margin: 3% 30%;
+    width: 150px;
+}
+
+span {
+	color: rgb(19, 11, 11);
+	display: inline-block;
+	margin-top: 10%;
+}
+
+#wrapper {
+	margin: -2% 12%;
+	
+	width: 1200px;
+	height: 200px;;
+}
+
+
